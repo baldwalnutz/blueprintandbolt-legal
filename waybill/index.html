@@ -1,0 +1,137 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Waybill Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#F2EFE4; --surface:#FFFFFF; --text:#1B3A2C; --text-2:#4C6656;
+  --accent:#B96A35; --accent-soft:#EFE2D3; --border:#E0DACB; --tag-bg:#E7EEE7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E2119; --surface:#163024; --text:#EDEAE0; --text-2:#B7C4BA;
+    --accent:#D98A4F; --accent-soft:#24402F; --border:#274536; --tag-bg:#1B3327;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E2119; --surface:#163024; --text:#EDEAE0; --text-2:#B7C4BA;
+  --accent:#D98A4F; --accent-soft:#24402F; --border:#274536; --tag-bg:#1B3327;
+}
+
+*{box-sizing:border-box;}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:"IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-inline:20px; padding-block:56px;
+  display:flex; justify-content:center;
+}
+main{width:100%; max-width:700px;}
+
+.tag{
+  display:inline-flex; align-items:center; gap:8px;
+  font-family:"IBM Plex Mono", ui-monospace, monospace;
+  font-size:.78rem; letter-spacing:.06em; text-transform:uppercase;
+  background:var(--tag-bg); color:var(--accent); border:1px solid var(--border);
+  padding:5px 12px; border-radius:5px; margin-bottom:18px;
+}
+h1{
+  font-family:"IBM Plex Mono", ui-monospace, monospace; font-weight:600;
+  font-size:clamp(1.7rem, 4vw, 2.3rem); line-height:1.2; margin:0 0 6px;
+  text-wrap:balance;
+}
+.updated{
+  color:var(--text-2); font-size:.9rem; margin:0 0 40px;
+  font-family:"IBM Plex Mono", monospace;
+}
+
+.lede{
+  background:var(--surface); border:1px dashed var(--border); border-radius:8px;
+  padding:20px 24px; font-size:1.05rem; line-height:1.65; margin-bottom:36px;
+}
+
+section{margin-bottom:32px;}
+h2{
+  font-family:"IBM Plex Mono", ui-monospace, monospace; font-weight:600;
+  font-size:1rem; letter-spacing:.04em; text-transform:uppercase; color:var(--accent);
+  margin:0 0 12px; padding-bottom:8px; border-bottom:1px solid var(--border);
+}
+p{line-height:1.7; font-size:1rem; color:var(--text); margin:0 0 12px; max-width:62ch;}
+ul{margin:0 0 12px; padding-left:1.3em; max-width:62ch;}
+li{line-height:1.7; margin-bottom:6px;}
+strong{color:var(--text);}
+code{
+  font-family:"IBM Plex Mono", monospace; background:var(--tag-bg);
+  padding:1px 6px; border-radius:4px; font-size:.92em;
+}
+
+footer{
+  border-top:1px solid var(--border); margin-top:48px; padding-top:20px;
+  color:var(--text-2); font-size:.9rem; line-height:1.6;
+}
+a{color:var(--accent);}
+
+@media (max-width:480px){
+  body{padding-block:36px;}
+}
+</style>
+
+<main>
+  <div class="tag">Waybill · BlueprintAndBolt</div>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Effective 2026-09-13</p>
+
+  <div class="lede">
+    Waybill tracks project items for interior designers, decorators, and home stagers. This page covers what information the app touches, and where it goes — which, for almost everything Waybill does, is nowhere but your own device.
+  </div>
+
+  <section>
+    <h2>Summary</h2>
+    <p>Waybill's workspace — your projects, items, rooms, timelines, and photos — is stored locally in the app's private storage. There's no account to create, no server Waybill talks to, and no analytics or advertising code in the app.</p>
+  </section>
+
+  <section>
+    <h2>Camera &amp; scanning</h2>
+    <p>Waybill can use the camera to scan an item's printed <code>Waybill</code> QR label or a supplier barcode, so you can find that item quickly. Scanning happens on-device using Apple's recognition framework; Waybill does not transmit camera images anywhere. If camera access isn't available or granted, you can always type a code in manually.</p>
+  </section>
+
+  <section>
+    <h2>Photos</h2>
+    <p>When you attach photos to an item, you choose them through Apple's standard photo picker. Waybill never sees your full photo library — only the specific photos you select — and stores a resized copy locally alongside that item's record.</p>
+  </section>
+
+  <section>
+    <h2>Notifications</h2>
+    <p>Waybill can schedule a local reminder when an ordered item runs late. These reminders are generated and delivered entirely on your device through Apple's notification system.</p>
+  </section>
+
+  <section>
+    <h2>iCloud</h2>
+    <p>Waybill's project is built with an iCloud/CloudKit container configured for future use, but syncing across devices is not an active feature yet. Right now, your workspace stays on the one device you're using. If cloud sync is turned on in a future release, this policy will be updated to describe exactly what that sends and to whom before the feature ships.</p>
+  </section>
+
+  <section>
+    <h2>Exports you create</h2>
+    <p>Waybill can generate CSV and PDF reports of your projects when you ask it to. These files are created on your device and go wherever you choose to send them — Waybill itself doesn't upload or transmit them.</p>
+  </section>
+
+  <section>
+    <h2>Third parties</h2>
+    <p>No third-party analytics, advertising, or tracking software is included in Waybill, and no data is sold or shared, because none is collected off your device to begin with.</p>
+  </section>
+
+  <section>
+    <h2>Children's privacy</h2>
+    <p>Waybill is a professional tool for design and staging businesses and is not directed at children. It does not knowingly collect information from children.</p>
+  </section>
+
+  <section>
+    <h2>Changes</h2>
+    <p>Any feature that changes how Waybill handles your data — most notably, iCloud sync — will come with an update to this page before it's turned on for anyone.</p>
+  </section>
+
+  <footer>
+    <p><strong>Contact</strong><br>
+    Questions about this policy or Waybill: <a href="mailto:support@blueprintandbolt.com">support@blueprintandbolt.com</a>.</p>
+  </footer>
+</main>
+
+</body></html>
